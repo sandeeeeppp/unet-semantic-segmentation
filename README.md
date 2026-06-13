@@ -2,7 +2,7 @@
 
 A PyTorch implementation of a U-Net model trained to segment images from the Oxford-IIIT Pet Dataset. 
 
-I built this for my AI/ML lab to run ablation studies on the U-Net architecture. The goal was to test how specific changes—like removing skip connections, adding batch normalization and dropout, or switching from Cross-Entropy to a combined Dice Loss—affect the model's ability to predict minority classes (specifically, the thin borders around the pets).
+I built this for my AI/ML lab to run ablation studies on the U-Net architecture. The goal was to test how specific changes like removing skip connections, adding batch normalization and dropout, or switching from Cross-Entropy to a combined Dice Loss affect the model's ability to predict minority classes (specifically, the thin borders around the pets).
 
 ## Dataset
 * **Source:** Oxford-IIIT Pet Dataset (7,349 images).
